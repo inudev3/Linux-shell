@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/inust33/myshell/main.c
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+errno.h
+-
+stdbool.h
+-
+fcntl.h
+-
+
